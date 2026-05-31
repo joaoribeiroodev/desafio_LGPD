@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background: #FFFFFF;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+.fordform {
+    display: block;
+    width: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    height: 26px;
+    margin: 8px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+select.fordform {
+    width: 312px;
+    height: 38px;
+    color: #807d7d;
+}
+
+input:focus-visible, 
+select:focus-visible {
+    outline: none;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    flex-wrap: wrap; 
+}
+
+.forms > div {
+    flex: 1; 
+    min-width: 320px; 
+    max-width: 500px; 
+}
+
+.forms img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 800;
+}
+
+.titulo {
+    margin-left: 8px;
+    margin-bottom: 15px;
+}
+
+.paragrafo-termos {
+    max-width: 310px; 
+    margin-left: 8px; 
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+
+.checkboxes {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    row-gap: 12px;     
+    column-gap: 8px;   
+    align-items: start;
+    
+    max-width: 310px;
+    margin-left: 8px;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.checkboxes input {
+    margin: 0;
+    margin-top: 2px; 
+    cursor: pointer;
+}
+
+.checkboxes label {
+    cursor: pointer;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin-right: 8px;
+    margin-top: 10px;
+    float: right;
+    background: #1351d8;
+    color: #fff;
+    border: 0px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background 0.3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1b357e;
+    transform: scale(1.1);
+}
+
+button:disabled {
+    background: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+button:disabled:hover {
+    background: #cccccc; 
+    transform: scale(1); 
+}
+
+header ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+ul {
+    display: inline-block;
+}
+
+header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+header div {
+    display: inline;
+    vertical-align: middle;
+}
+
+header nav {
+    display: inline-block;
+    vertical-align: middle;
+    width: 80vw;
+}
+
+header nav a {
+    color: #1351d8;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+header nav a:hover {
+    color: #1b357e;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+}
+
+main {
+    min-height: calc(100vh - 167px); 
+}
+
+/* --- RODAPÉ --- */
+nav#social {
+    display: inline;
+    width: 80%;
+}
+
+nav#social ul img {
+    width: 28px;
+}
+
+span.redesociais {
+    color: #ffffff;
+    vertical-align: super;
+}
+
+footer {
+    background: #1B357E;
+    padding: 20px;
+}
+
+footer div {
+    display: inline;
+    float: right;
+    margin-right: 40px;
+}

@@ -1,0 +1,100 @@
+ul.modelcars {
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+ul.modelcars li {
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    vertical-align: top;
+}
+
+img.photocar {
+    display: block;
+    width: 250px;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #1b357e;
+}
+
+.infocar div {
+    display: inline-block;
+}
+
+.info {
+    width: 200px;
+    vertical-align: top;
+}
+
+.textmodel {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    color: #1351d8;
+}
+
+.textprice {
+    display: block;
+    text-align: left;
+    font-size: 10px;
+}
+
+div#compare {
+    position: fixed;
+    display: none;
+    width: 90vw;
+    max-width: 800px;
+    height: auto;
+    max-height: 90vh;
+    overflow-y: auto;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+div#compare table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px auto;
+}
+  
+div#compare th, 
+div#compare td {
+    text-align: left;
+    padding: 12px 8px;
+    vertical-align: middle;
+}
+
+div#compare td:nth-child(1) {  
+    font-weight: 700;
+    width: 35%;
+}
+
+div#compare td:nth-child(2),
+div#compare td:nth-child(3) {
+    width: 32.5%;
+    text-align: center;
+}
+
+div#compare tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+div#compare td img.photocar {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
