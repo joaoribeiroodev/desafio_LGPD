@@ -28,8 +28,7 @@ Um portal web interativo desenvolvido em conformidade com as diretrizes de prote
 ### Recursos Específicos
 - **Classes JavaScript**: Implementação de `Carousel`, `Car` e `Contato`
 - **API Intl**: Formatação de moeda (Real Brasileiro)
-- **CSS Animations**: Transições suaves e efeitos de fade-in
-- **Fetch API**: [Insira aqui se há requisições backend] |
+- **CSS Animations**: Transições suaves e efeitos de fade-in 
 
 ---
 
